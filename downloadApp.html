@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Cathedral</title>
+    <style>
+        @font-face {
+            font-family: 'Cafe24Oneprettynight';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: 0;
+        }
+        #background {
+            font-family: 'Cafe24Oneprettynight';
+            width: 100vw;
+            height: 100vh;
+            background-color: #26342c;
+            padding-top: 40px;
+            margin: auto;
+            text-align: center;
+            color: #fff;
+        }
+        p {
+            margin-top: 40px;
+        }
+        hr {
+            margin: 40px auto;
+            width: 50vw;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        body > div {
+            margin: 20px auto;
+        }
+        ul {
+            width: max-content;
+            margin: 20px auto;
+            text-align: left;
+            border: 1px dashed #fff;
+            border-radius: 10px;
+            padding: 40px;
+        }
+        #download {
+            display: flex;
+            width: min-content;
+        }
+        #download > div {
+            border: 1px solid #fff;
+            margin: 10px 10px;
+            border-radius: 10px;
+        }
+        #download > div > a {
+            display: block;
+            padding: 10px;
+            color: #fff;
+            white-space: nowrap;
+        }
+        #download > div:hover {
+            border: 2px solid rgb(215, 187, 185);
+        }
+        #download > div > a:hover {
+            color: rgb(215, 187, 185);
+        }
+        #explain {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body id="background">
+    <img src="./title.png" height="10%">
+    <hr>
+    <img src="./icon.png" height="20%">
+    <p>게임 다운로드</p>
+    <div id="download">
+        <div><a href="./EscapeCathedral_for_window.zip" download>for Window</a></div>
+        <div><a href="./EscapeCathedral_for_MAC.zip" download>for MacOS</a></div>
+    </div>
+    <div id="explain">
+        <details>
+            <summary>게임 방법</summary>
+            <ul>
+                <li>게임 조작 : 방향키로 조작</li>
+                <li>시점 : 마우스 포인트가 가리키는 위치</li>
+                <li>인벤토리 : I 키로 열고 닫기</li>
+                <li>인벤토리 아이템 : 숫자 키보드로 선택 (1~9)<br>인벤토리에 아이템이 없을 경우 선택 X</li>
+            </ul>
+        </details>
+    </div>
+</body>
+</html>
